@@ -1,0 +1,9 @@
+{
+  "name": "someplace",
+  "version": "1.0.0",
+  "description": "go someplace!",
+  "main": "index.js",
+  "author": "hadenpf",
+  "license": "UNLICENSED",
+  "private": true
+}
