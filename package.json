@@ -1,9 +1,20 @@
 {
-  "name": "someplace",
-  "version": "1.0.0",
-  "description": "go someplace!",
-  "main": "index.js",
-  "author": "hadenpf",
-  "license": "UNLICENSED",
-  "private": true
+	"name": "gosomeplace",
+	"version": "1.0.0",
+	"description": "go someplace!",
+	"author": "hadenpf",
+	"private": true,
+	"main": "index.js",
+	"license": "UNLICENSED",
+	"workspaces": [
+		"web"
+	],
+	"scripts": {
+		"web": "yarn workspace @gosomeplace/web"
+	},
+	"devDependencies": {
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-prettier": "^3.4.0",
+		"prettier": "^2.3.2"
+	}
 }

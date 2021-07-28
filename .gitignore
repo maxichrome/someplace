@@ -1,0 +1,16 @@
+# deps
+node_modules/
+
+# build/env
+*.local
+
+# spam
+.DS_Store
+*.log
+
+# build/env
+/out/
+/build/
+.next/
+.vercel/
+*.pem
